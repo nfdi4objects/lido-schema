@@ -6,11 +6,18 @@ The files have been adjusted to use relative references to included schema files
 
 ## Usage
 
-Validate against XML Schema with xmllint:
+Validate `lido-file.xml` against XML Schema with xmllint:
 
 ~~~sh
-xmllint --schema lido-v1.1.xsd "$input" --noout
+xmllint --schema lido-v1.1.xsd lido-file.xml --noout
 ~~~
+
+The script `lido-valid`, included in this repository, can be used to call xmllint with reference to LIDO 1.1 XML Schema:
+
+~~~sh
+./lido-valid lido-file.xml
+~~~
+
 
 ## License
 

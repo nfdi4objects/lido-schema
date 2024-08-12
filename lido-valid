@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+DIR=$(dirname $(realpath -s "$0"))
+xmllint --schema "$DIR/lido-v1.1.xsd" --noout "$@"
