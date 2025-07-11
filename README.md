@@ -10,6 +10,7 @@ The files have been adjusted to use relative references to included schema files
 - LIDO 1.0
 - Minimum Record Recommenation for Museums and Collections (aka Minimaldatensatz) 1.0.1 (based on LIDO 1.1)
 - EODEM Exhibition Object Data Exchange Model 1.0 (based on LIDO 1.1)
+- LIDO Handbook "Painting and Sculpture" (based on LIDO 1.1)
 
 ## Installation
 
