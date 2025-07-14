@@ -14,6 +14,20 @@ See [formats.json](formats.json) for a machine-readable list:
 - EODEM Exhibition Object Data Exchange Model 1.0 (based on LIDO 1.1)
 - LIDO Handbook "Painting and Sculpture" (based on LIDO 1.1)
 
+## Local copies of referenced schema files
+
+- `xml.xsd` = <https://www.w3.org/2001/03/xml.xsd>
+- `xlink.xsd` = <https://www.w3.org/1999/xlink.xsd>
+- `smil/smil20.xsd` = <https://www.w3.org/2001/SMIL20/smil20.xsd> with includes embedded
+- `smil/smil20-language.xsd` = <https://www.w3.org/2001/SMIL20/smil20-language.xsd>
+- `gml/*` = <https://schemas.opengis.net/gml/3.1.1/base/gml.xsd> and includes 
+- `XMLSchema.dtd` = <https://www.w3.org/2009/XMLSchema/XMLSchema.dtd>
+- `datatypes.dtd` =  <https://www.w3.org/2009/XMLSchema/datatypes.dtd>
+
+## Schematron Schemas
+
+All Schematron Schema files (`.xsd`) have been extracted from the corresponding XML Schema files with command `make -B schematron`.
+
 ## Installation
 
 Requires the `xmllint` command line tool, included in the `libxml2-utils` Debian package.

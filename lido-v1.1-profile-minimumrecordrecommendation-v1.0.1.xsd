@@ -149,7 +149,7 @@
       </xs:appinfo>
    </xs:annotation>
    <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
-   <xs:import namespace="http://www.opengis.net/gml" schemaLocation="base/gml.xsd"/>
+   <xs:import namespace="http://www.opengis.net/gml" schemaLocation="gml/gml.xsd"/>
    <xs:complexType name="actorComplexType" id="actorComplexType">
       <xs:annotation>
          <xs:documentation>
