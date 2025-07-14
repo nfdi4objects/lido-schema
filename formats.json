@@ -4,7 +4,11 @@
       "en": "LIDO 1.1"
     },
     "schemas": [ {
+      "type": "xsd",
       "url": "lido-v1.1.xsd"
+    },{
+      "type": "schematron",
+      "url": "lido-v1.1.sch"
     } ]
   },
   {
@@ -12,6 +16,7 @@
       "en": "LIDO 1.0"
     },
     "schemas": [ {
+      "type": "xsd", 
       "url": "lido-v1.0.xsd"
     } ]
   },
@@ -21,7 +26,11 @@
       "en": "LIDO 1.0"
     },
     "schemas": [ {
+      "type": "xsd", 
       "url": "lido-v1.1-profile-EODEM-v1.0.xsd"
+    },{
+      "type": "schematron",
+      "url": "lido-v1.1-profile-EODEM-v1.0.sch"
     } ]
   },
   {
@@ -31,7 +40,11 @@
       "de": "LIDO Minimaldatensatz-Empfehlung für Museen und Sammlungen"
     },
     "schemas": [ {
+      "type": "xsd", 
       "url": "lido-v1.1-profile-minimumrecordrecommendation-v1.0.1.xsd"
+    },{
+      "type": "schematron",
+      "url": "lido-v1.1-profile-minimumrecordrecommendation-v1.0.1.sch"
     } ]
   },
   {
@@ -41,7 +54,11 @@
       "de": "LIDO-Handbuch Malerei und Skulptur "
     },
     "schemas": [ {
+      "type": "xsd", 
       "url": "paintingandsculpture.xsd"
+    },{
+      "type": "schematron",
+      "url": "paintingandsculpture.sch"
     } ]
   }
 ]
