@@ -1,0 +1,47 @@
+[
+  {
+    "prefLabel": {
+      "en": "LIDO 1.1"
+    },
+    "schemas": [ {
+      "url": "lido-v1.1.xsd"
+    } ]
+  },
+  {
+    "prefLabel": {
+      "en": "LIDO 1.0"
+    },
+    "schemas": [ {
+      "url": "lido-v1.0.xsd"
+    } ]
+  },
+  {
+    "uri": "https://format.gbv.de/lido/eodem",
+    "prefLabel": {
+      "en": "LIDO 1.0"
+    },
+    "schemas": [ {
+      "url": "lido-v1.1-profile-EODEM-v1.0.xsd"
+    } ]
+  },
+  {
+    "uri": "https://format.gbv.de/lido/minimum",
+    "prefLabel": {
+      "en": "Minimum Record Recommenation for Museums and Collections",
+      "de": "LIDO Minimaldatensatz-Empfehlung für Museen und Sammlungen"
+    },
+    "schemas": [ {
+      "url": "lido-v1.1-profile-minimumrecordrecommendation-v1.0.1.xsd"
+    } ]
+  },
+  {
+    "uri": "https://format.gbv.de/lido/paintingandsculpture",
+    "prefLabel": {
+      "en": "LIDO Handbook Painting and Sculpture",
+      "de": "LIDO-Handbuch Malerei und Skulptur "
+    },
+    "schemas": [ {
+      "url": "paintingandsculpture.xsd"
+    } ]
+  }
+]

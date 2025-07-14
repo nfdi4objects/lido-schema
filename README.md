@@ -4,7 +4,9 @@ This repository contains a copy of [the official XML Schemas](https://cidoc.mini
 
 The files have been adjusted to use relative references to included schema files, so no HTTP requests are needed to get the full schema. This considerably speeds up validation (unless schemas are cached anyway).
 
-## Contents
+## Formats and Application Profiles
+
+See [formats.json](formats.json) for a machine-readable list:
 
 - LIDO 1.1
 - LIDO 1.0
